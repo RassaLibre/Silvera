@@ -1,0 +1,26 @@
+@import "variables";
+
+body{
+	background-color: $body-background-color;
+}
+
+.buttons{
+	display: flex;
+	width: 100%;
+	flex-direction: row;
+}
+
+.buttons__button{
+	flex: 1;
+	display: block;
+	margin: 20px;
+	padding: 20px;
+	background-color: green;
+	border: none;
+	color: white;
+}
+
+.buttons__button:HOVER{
+	color: black;
+	background-color: yellow;
+}
