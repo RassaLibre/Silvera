@@ -19,6 +19,10 @@ You need Webpack, TypeScript, TSLint and Typings. It is good to have them as glo
 	npm install typings -g
 	
 Once you clone the repo, run:
+	
+	typings install
+	
+and then:
 
 	npm install
 	
